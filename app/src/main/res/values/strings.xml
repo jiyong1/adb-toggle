@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ADB 토글</string>
+    <string name="usb_debugging">USB 디버깅</string>
+
+    <string name="state_on">켜짐</string>
+    <string name="state_off">꺼짐</string>
+    <string name="state_need_permission">권한 필요</string>
+    <string name="widget_description">누르면 USB 디버깅을 켜고 끕니다</string>
+
+    <string name="main_subtitle">홈 화면 위젯을 눌러 USB 디버깅을 바로 켜고 끕니다.</string>
+    <string name="permission_required">권한이 필요해요</string>
+    <string name="permission_granted">권한이 부여되어 있어요</string>
+    <string name="permission_guide">USB 디버깅을 켠 상태로 PC에 연결하고 아래 명령을 한 번 실행하세요. 재부팅하거나 앱을 업데이트해도 유지되고, 앱을 삭제하면 사라집니다.</string>
+    <string name="copy_command">명령어 복사</string>
+    <string name="copied">복사했어요</string>
+    <string name="widget_section">홈 화면 위젯</string>
+    <string name="widget_guide">홈 화면을 길게 누르고 위젯 → ADB 토글에서도 추가할 수 있어요.</string>
+    <string name="add_widget">홈 화면에 위젯 추가</string>
+    <string name="notes">• USB 디버깅을 끄면 PC와의 adb 연결도 바로 끊어집니다. 다시 켤 때는 휴대폰에서 켜세요.\n• 개발자 옵션이 꺼져 있으면 USB 디버깅을 켤 때 함께 켭니다.</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- 위젯: 켜짐은 배경화면에서 뽑은 강조색, 꺼짐은 중립색 (Android 12 다이내믹 컬러) -->
+    <color name="widget_on_bg">@android:color/system_accent1_600</color>
+    <color name="widget_on_fg">@android:color/system_accent1_0</color>
+    <color name="widget_off_bg">@android:color/system_neutral1_50</color>
+    <color name="widget_off_fg">@android:color/system_neutral1_900</color>
+    <color name="widget_off_sub">@android:color/system_neutral2_600</color>
+
+    <!-- 설정 화면 -->
+    <color name="screen_bg">@android:color/system_neutral1_50</color>
+    <color name="card_bg">@android:color/system_neutral1_0</color>
+    <color name="code_bg">@android:color/system_neutral2_100</color>
+
+    <color name="launcher_bg">#FF1B1F24</color>
+    <color name="launcher_fg">#FF3DDC84</color>
+</resources>

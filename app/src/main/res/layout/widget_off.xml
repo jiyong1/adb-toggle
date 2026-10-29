@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg_off"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        style="@style/WidgetIcon"
+        android:importantForAccessibility="no"
+        android:tint="@color/widget_off_fg" />
+
+    <TextView
+        style="@style/WidgetLabel"
+        android:textColor="@color/widget_off_fg" />
+
+    <TextView
+        android:id="@+id/state"
+        style="@style/WidgetState"
+        android:text="@string/state_off"
+        android:textColor="@color/widget_off_sub" />
+</LinearLayout>
